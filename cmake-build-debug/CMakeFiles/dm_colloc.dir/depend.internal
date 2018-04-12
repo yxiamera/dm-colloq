@@ -24,6 +24,36 @@ CMakeFiles/dm_colloc.dir/main.cpp.o
  ../googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /home/vms/CLionProjects/dm-colloq/libs/integer.h
  /home/vms/CLionProjects/dm-colloq/libs/naturals.h
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/./ABS_Z_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZM_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/./POZ_Z_D.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/./SUB_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/ABS_Z_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/ADD_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/DIV_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/MOD_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZM_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/POZ_Z_D.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/SUB_ZZ_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_N_Z.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_Z_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_1N_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_Dk.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/GCF_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/LCM_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/MOD_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_ND_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_NN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_Nk_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/NZER_N_B.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NDN_N.c
+ /home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
  /home/vms/CLionProjects/dm-colloq/main.cpp
  /home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
