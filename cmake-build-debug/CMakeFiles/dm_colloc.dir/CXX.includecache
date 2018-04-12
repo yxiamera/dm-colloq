@@ -441,10 +441,16 @@ stdio.h
 -
 
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_1N_N.c
+stdio.h
+-
+stdlib.h
+-
 
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_NN_N.c
 COM_NN_D.c
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
+NZER_N_B.c
+/home/vms/CLionProjects/dm-colloq/libs/src/naturals/NZER_N_B.c
 
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
 

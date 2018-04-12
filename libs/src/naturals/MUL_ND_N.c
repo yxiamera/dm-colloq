@@ -2,7 +2,7 @@
 
 int *MUL_ND_N(int *numberOne, int number) {
     int i, One_size;
-    numberOne[0] = One_size;
+    One_size = numberOne[0];
     numberOne[One_size] = numberOne[One_size] * number;
     if (numberOne[One_size] > 9) {
         int int_part = numberOne[i] / 10; //div numberOne[1]

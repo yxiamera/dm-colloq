@@ -32,7 +32,7 @@ TEST(NZER_N_B, basic_test) {
     int test1[] = {3, 1, 2, 3},
             test2[] = {0};
     EXPECT_EQ(NZER_N_B(test1), 0);
-    EXPECT_EQ(NZER_N_B(test2), 0);
+    EXPECT_EQ(NZER_N_B(test2), 1);
 }
 
 TEST(ADD_1N_N, basic_test) {
