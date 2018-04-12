@@ -1,6 +1,7 @@
 #include <iostream>
 #include "libs/naturals.h"
 #include "tests/natural_tests.h"
+#include "libs/integer.h"
 
 //TEST(MUL_N)
 
