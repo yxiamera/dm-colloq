@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dm_colloc.dir/main.cpp.obj"
+  "CMakeFiles/dm_colloc.dir/main.cpp.o"
   "dm_colloc.pdb"
-  "dm_colloc.exe"
-  "dm_colloc.exe.manifest"
-  "libdm_colloc.dll.a"
+  "dm_colloc"
 )
 
 # Per-language clean rules from dependency scanning.

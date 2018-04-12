@@ -4,6 +4,7 @@
 
 #ifndef DM_COLLOC_NATURAL_TESTS_H
 #define DM_COLLOC_NATURAL_TESTS_H
+#include "../libs/naturals.h"
 #include <gtest/gtest.h>
 
 
@@ -72,4 +73,54 @@ TEST(MUL_ND_N, basic_test) {
     EXPECT_STREQ(str_repr(MUL_ND_N(test3, 9)), "1111111111010");
 }
 
+TEST(MUL_Nk_N, basic_test) {
+    int test1[] = {0},
+        test2[] = {3, 1, 2, 3};
+    EXPECT_STREQ(str_repr(MUL_Nk_N(test1, 1000)), "0");
+    EXPECT_STREQ(str_repr(MUL_Nk_N(test2, 3)), "6123000");
+}
+
+TEST(MUL_NN_N, basic_test) {
+    int test1[] = {0},
+        test2[] = {3, 1, 2, 3},
+        test3[] = {3, 4, 5, 6};
+    EXPECT_STREQ(str_repr(MUL_NN_N(test1, test2)), "0");
+    EXPECT_STREQ(str_repr(MUL_NN_N(test2, test3)), "556088");
+}
+
+TEST(SUB_NDN_N, basic_test) {
+    int test1[]  = {3, 1, 4, 6},
+        test2[]  = {2, 1, 0};
+    EXPECT_STREQ(str_repr(SUB_NDN_N(test1, test2, 5)), "296");
+}
+
+TEST(DIV_NN_Dk, basic_test) {
+    int test1[] = {6, 1, 2, 3, 4, 5, 6},
+        test2[] = {2, 3, 4};
+    EXPECT_EQ(DIV_NN_Dk(test1, test2), 3);
+}
+
+TEST(DIV_NN_N, basic_test) {
+    int test1[] = {6, 1, 2, 3, 4, 5, 6},
+            test2[] = {2, 3, 4};
+    EXPECT_STREQ(str_repr(DIV_NN_N(test1, test2)), "43631");
+}
+
+TEST(MOD_NN_N, basic_test) {
+    int test1[] = {6, 1, 2, 3, 4, 5, 6},
+            test2[] = {2, 3, 4};
+    EXPECT_STREQ(str_repr(MOD_NN_N(test1, test2)), "12");
+}
+
+TEST(GCF_NN_N, basic_test) {
+    int test1[] = {8, 2, 1, 2, 3, 1, 2, 3, 2},
+            test2[] = {7, 1, 2, 3, 4, 2, 3, 2};
+    EXPECT_STREQ(str_repr(GCF_NN_N(test1, test2)), "18");
+}
+
+TEST(LCM_NN_N, basic_test) {
+    int test1[] = {8, 2, 1, 2, 3, 1, 2, 3, 2},
+            test2[] = {7, 1, 2, 3, 4, 2, 3, 2};
+    EXPECT_STREQ(str_repr(LCM_NN_N(test1, test2)), "133275533241728");
+}
 #endif //DM_COLLOC_NATURAL_TESTS_H

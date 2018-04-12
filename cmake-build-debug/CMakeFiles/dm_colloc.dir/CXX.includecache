@@ -284,21 +284,23 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/User/Desktop/dm-colloc/libs/naturals.h
+/home/vms/CLionProjects/dm-colloq/libs/naturals.h
 stdio.h
 -
 malloc.h
 -
 
-C:/Users/User/Desktop/dm-colloc/main.cpp
+/home/vms/CLionProjects/dm-colloq/main.cpp
 iostream
 -
 libs/naturals.h
-C:/Users/User/Desktop/dm-colloc/libs/naturals.h
+/home/vms/CLionProjects/dm-colloq/libs/naturals.h
 tests/natural_tests.h
-C:/Users/User/Desktop/dm-colloc/tests/natural_tests.h
+/home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
 
-C:/Users/User/Desktop/dm-colloc/tests/natural_tests.h
+/home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
+../libs/naturals.h
+/home/vms/CLionProjects/dm-colloq/libs/naturals.h
 gtest/gtest.h
 -
 
