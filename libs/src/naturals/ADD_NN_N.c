@@ -1,13 +1,32 @@
 #pragma once
 #include "COM_NN_D.c"
+#include "NZER_N_B.c"
 
 int* ADD_NN_N(int *numberOne, int *numberTwo) {
     int i,j,int_part,n;
     int One_size = numberOne[0];//select the size of the first array
     int Two_size = numberTwo[0];//select the size of the second array
-    if ((numberOne[1]!=0)||(numberTwo[1]!=0)){ //check for a natural number
-        printf ("Error! This is not a natural number\n");
-        return 0;
+//    if ((numberOne[1]!=0)||(numberTwo[1]!=0)){ //check for a natural number
+//        printf ("Error! This is not a natural number\n");
+//        return 0;
+//    } Here probably check if number is zero / or not, not necessary to check whether it's not a natural.
+    if (NZER_N_B(numberTwo)) {
+        // If second is zero
+        // copy first and return
+        int *result = (int *)malloc(sizeof(int) * numberOne[0]);
+        for (int i = 0; i < *numberOne + 1; ++i) {
+            result[i] = numberOne[i];
+        }
+        return result;
+    }
+    if (NZER_N_B(numberOne)) {
+        // If first is zero
+        // copy second and return
+        int *result = (int *)malloc(sizeof(int) * numberTwo[0]);
+        for (int i = 0; i < *numberTwo + 1; ++i) {
+            result[i] = numberTwo[i];
+        }
+        return result;
     }
     if (COM_NN_D(numberOne,numberTwo)==2){ // if Number 1 > number 2
         for (i=One_size,j=Two_size;j>1;i--,j--){

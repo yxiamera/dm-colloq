@@ -1,3 +1,4 @@
+#pragma once
 
 int NZER_N_B(int *input) {
     // Execution time: 10 minutes
@@ -12,8 +13,8 @@ int NZER_N_B(int *input) {
         }
     }
     if (c == 0) {
-        return 0;
+        return 1;
     } else {
-        return 1; // The number is not zero
+        return 0; // The number is not zero
     }
 }
