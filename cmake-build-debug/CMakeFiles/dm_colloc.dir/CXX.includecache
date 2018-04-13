@@ -346,6 +346,20 @@ src/naturals/SUB_NDN_N.c
 src/naturals/SUB_NN_N.c
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
 
+/home/vms/CLionProjects/dm-colloq/libs/rational.h
+src/rational/DIV_QQ_Q.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/DIV_QQ_Q.c
+src/rational/INT_Q_B.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/INT_Q_B.c
+src/rational/MUL_QQ_Q.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/MUL_QQ_Q.c
+src/rational/RED_Q_Q.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/RED_Q_Q.c
+src/rational/TRANS_Q_Z.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Q_Z.c
+src/rational/TRANS_Z_Q.c
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Z_Q.c
+
 /home/vms/CLionProjects/dm-colloq/libs/src/integer/./ABS_Z_N.c
 stdio.h
 -
@@ -492,6 +506,32 @@ MUL_ND_N.c
 
 /home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
 
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/DIV_QQ_Q.c
+stdio.h
+-
+stdlib.h
+-
+../integer/MUL_ZZ_Z.c
+/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
+
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/INT_Q_B.c
+
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/MUL_QQ_Q.c
+stdio.h
+-
+stdlib.h
+-
+
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/RED_Q_Q.c
+
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Q_Z.c
+stdio.h
+-
+stdlib.h
+-
+
+/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Z_Q.c
+
 /home/vms/CLionProjects/dm-colloq/main.cpp
 iostream
 -
@@ -501,6 +541,8 @@ tests/natural_tests.h
 /home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
 libs/integer.h
 /home/vms/CLionProjects/dm-colloq/libs/integer.h
+libs/rational.h
+/home/vms/CLionProjects/dm-colloq/libs/rational.h
 
 /home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
 ../libs/naturals.h

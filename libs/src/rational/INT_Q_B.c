@@ -6,7 +6,7 @@
 	Логических строк кода: 3
 */
 
-int* INT_Q_B(int *numberOne,int *numberTwo) {
+int INT_Q_B(int *numberOne,int *numberTwo) {
 	if (MOD_ZZ_Z(numberOne, numberTwo) == 0){// Если остаток равен нулю
 		return 1;							 // возвращаем 1, то есть "Да"
 	}

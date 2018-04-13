@@ -4,47 +4,47 @@
 #include <stdlib.h>
 #include "./ABS_Z_N.c"
 
-int count_digits(int number) {
-    int digits=0;
-    if (number < 0) {
-        number *= -1;
-    }
-    while (number>=10) {
-        digits += 1;
-        number /= 10;
-    }
-    return digits;
-};
-
-int* init_integer(int number) {
-    int i;
-    int size = count_digits(number);
-    int* Z = (int *)malloc((size+3) * sizeof(int));
-    Z[0] = size;
-    if (number < 0) {
-        Z[1] = 1;
-        number *= -1;
-    } else {
-        Z[1] = 0;
-    }
-    for (i=2; i<=size+2; i++) {
-        Z[i] = number%10;
-        number /= 10;
-    }
-    return Z;
-};
-
-int get_integer(int* Z) {
-    int number=0,power=1,i;
-    for (i=2; i<=Z[0]+2; i++) {
-        number += Z[i] * power;
-        power *= 10;
-    }
-    if (Z[1] == 1) {
-        number *= -1;
-    }
-    return number;
-};
+//int count_digits(int number) {
+//    int digits=0;
+//    if (number < 0) {
+//        number *= -1;
+//    }
+//    while (number>=10) {
+//        digits += 1;
+//        number /= 10;
+//    }
+//    return digits;
+//};
+//
+//int* init_integer(int number) {
+//    int i;
+//    int size = count_digits(number);
+//    int* Z = (int *)malloc((size+3) * sizeof(int));
+//    Z[0] = size;
+//    if (number < 0) {
+//        Z[1] = 1;
+//        number *= -1;
+//    } else {
+//        Z[1] = 0;
+//    }
+//    for (i=2; i<=size+2; i++) {
+//        Z[i] = number%10;
+//        number /= 10;
+//    }
+//    return Z;
+//};
+//
+//int get_integer(int* Z) {
+//    int number=0,power=1,i;
+//    for (i=2; i<=Z[0]+2; i++) {
+//        number += Z[i] * power;
+//        power *= 10;
+//    }
+//    if (Z[1] == 1) {
+//        number *= -1;
+//    }
+//    return number;
+//};
 
 int* DIV_ZZ_Z(int* Z1, int* Z2) {
     //определяем знак результата

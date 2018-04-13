@@ -25,6 +25,7 @@ CMakeFiles/dm_colloc.dir/main.cpp.o: ../googletest-master/googletest/include/gte
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/integer.h
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/naturals.h
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/rational.h
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/integer/./ABS_Z_N.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/integer/./MUL_ZM_Z.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/integer/./MUL_ZZ_Z.c
@@ -54,6 +55,12 @@ CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/naturals/MUL_Nk_N.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/naturals/NZER_N_B.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/naturals/SUB_NDN_N.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/naturals/SUB_NN_N.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/DIV_QQ_Q.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/INT_Q_B.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/MUL_QQ_Q.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/RED_Q_Q.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/TRANS_Q_Z.c
+CMakeFiles/dm_colloc.dir/main.cpp.o: ../libs/src/rational/TRANS_Z_Q.c
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../main.cpp
 CMakeFiles/dm_colloc.dir/main.cpp.o: ../tests/natural_tests.h
 

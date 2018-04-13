@@ -2,6 +2,7 @@
 #include "libs/naturals.h"
 #include "tests/natural_tests.h"
 #include "libs/integer.h"
+#include "libs/rational.h"
 
 //TEST(MUL_N)
 
