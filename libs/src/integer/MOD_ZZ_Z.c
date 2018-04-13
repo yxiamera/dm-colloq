@@ -7,20 +7,20 @@
 //https://sites.google.com/site/efimchiknikita7307/home
 //e-mail: efimchikofficial@gmail.com
 
-int* MOD_ZZ_Z(int *bigInt, int *smallInt)
+int* MOD_ZZ_Z(int *dividend, int *divider)
 {
-    int* integer, *rest;
-    // integer - неполное частное, rest - остаток от деления, bigInt - делимое, smallInt - делитель,  bigInt > smallInt
-    if(COM_NN_D(bigInt,smallInt) == 1)
+    int* quotient, *remainder;
+    // dividend > divider
+    if(COM_NN_D(dividend,divider) == 1)
     {
         printf("Invalid input");
         exit(42);
     }
-    integer = DIV_ZZ_Z(bigInt, smallInt); // вычисляем неполное частное
-    //!Проверку на то что bigInt и smallInt - натуральные числа и то что делитель отличен от 0
-    //! делает человек, заведующий функцией  DIV_ZZ_Z
-    rest = SUB_ZZ_Z(bigInt, MUL_ZZ_Z(integer, smallInt)); // остаток это  делимое - произведение неполного частного на делитель
-   // rest = bigInt - integer * smallInt;
-    free(integer);
-    return rest;
+
+    quotient = DIV_ZZ_Z(dividend, divider); // calculate quotient dividend/divider // DIV_ZZ_Z must malloc memory
+    //!  DIV_ZZ_Z already has checked that divided and divider - integers and divider != 0
+    remainder = SUB_ZZ_Z(dividend, MUL_ZZ_Z(quotient, divider)); // SUB_ZZ_Z must malloc memory
+    // remainder = dividend - quotient * divider;
+    free(quotient);
+    return remainder;
 }
