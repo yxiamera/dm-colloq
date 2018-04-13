@@ -1,4 +1,5 @@
 #pragma once
+#include <stdlib.h>
 #include "../../naturals.h"
 //Об авторе:
 //Николаева Екатерина Валерьевна, ФКТИ гр.№7307
