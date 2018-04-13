@@ -9,7 +9,7 @@
 int** DIV_QQ_Q (int** F1, int** F2) {
 
     //allocate memory for resulting fraction
-    int** F = malloc(2 * sizeof(int*));;
+    int** F = (int **)malloc(2 * sizeof(int*));;
 
     //multiplication with "upside-down" fraction
     F[0] = MUL_ZZ_Z(F1[0], F2[1]); //numerator
