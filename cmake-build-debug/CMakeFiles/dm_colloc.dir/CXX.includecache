@@ -284,7 +284,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 stdio.h
 -
 malloc.h
@@ -292,261 +292,283 @@ malloc.h
 stdlib.h
 -
 src/integer/ABS_Z_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/ABS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/ABS_Z_N.c
 src/integer/ADD_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/ADD_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/ADD_ZZ_Z.c
 src/integer/DIV_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/DIV_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/DIV_ZZ_Z.c
 src/integer/MOD_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MOD_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MOD_ZZ_Z.c
 src/integer/MUL_ZM_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZM_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MUL_ZM_Z.c
 src/integer/MUL_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
 src/integer/POZ_Z_D.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/POZ_Z_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/POZ_Z_D.c
 src/integer/SUB_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/SUB_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/SUB_ZZ_Z.c
 src/integer/TRANS_N_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_N_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/TRANS_N_Z.c
 src/integer/TRANS_Z_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/TRANS_Z_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 stdio.h
 -
 malloc.h
 -
 src/naturals/ADD_1N_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_1N_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/ADD_1N_N.c
 src/naturals/ADD_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/ADD_NN_N.c
 src/naturals/COM_NN_D.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/COM_NN_D.c
 src/naturals/DIV_NN_Dk.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_Dk.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/DIV_NN_Dk.c
 src/naturals/DIV_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/DIV_NN_N.c
 src/naturals/GCF_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/GCF_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/GCF_NN_N.c
 src/naturals/LCM_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/LCM_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/LCM_NN_N.c
 src/naturals/MOD_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MOD_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MOD_NN_N.c
 src/naturals/MUL_ND_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_ND_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_ND_N.c
 src/naturals/MUL_Nk_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_Nk_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_Nk_N.c
 src/naturals/MUL_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_NN_N.c
 src/naturals/NZER_N_B.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/NZER_N_B.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/NZER_N_B.c
 src/naturals/SUB_NDN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NDN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NDN_N.c
 src/naturals/SUB_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/rational.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/polynome.h
+src/polynome/ADD_PP_P.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/polynome/ADD_PP_P.c
+
+C:/Users/User/Documents/GitHub/dm-colloq/libs/rational.h
 src/rational/DIV_QQ_Q.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/DIV_QQ_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/DIV_QQ_Q.c
 src/rational/INT_Q_B.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/INT_Q_B.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/INT_Q_B.c
 src/rational/MUL_QQ_Q.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/MUL_QQ_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/MUL_QQ_Q.c
 src/rational/RED_Q_Q.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/RED_Q_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/RED_Q_Q.c
 src/rational/TRANS_Q_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Q_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/TRANS_Q_Z.c
 src/rational/TRANS_Z_Q.c
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Z_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/TRANS_Z_Q.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./ABS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./ABS_Z_N.c
 stdio.h
 -
 stdlib.h
 -
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/src/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZM_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./MUL_ZM_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/src/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./MUL_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/src/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer.h
 ../../naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./POZ_Z_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./POZ_Z_D.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/src/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./SUB_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./SUB_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/src/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer.h
 stdio.h
 -
 stdlib.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/ABS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/ABS_Z_N.c
 stdio.h
 -
 stdlib.h
 -
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/ADD_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/ADD_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 ./POZ_Z_D.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./POZ_Z_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./POZ_Z_D.c
 ./MUL_ZM_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZM_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./MUL_ZM_Z.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/DIV_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/DIV_ZZ_Z.c
 stdio.h
 -
 stdlib.h
 -
 ./ABS_Z_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./ABS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./ABS_Z_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MOD_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MOD_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 ./SUB_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./SUB_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./SUB_ZZ_Z.c
 ./MUL_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/./MUL_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/./MUL_ZZ_Z.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZM_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MUL_ZM_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 ../../naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/POZ_Z_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/POZ_Z_D.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/SUB_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/SUB_ZZ_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 stdio.h
 -
 stdlib.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_N_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/TRANS_N_Z.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/TRANS_Z_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/TRANS_Z_N.c
 ../../integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 stdio.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_1N_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/ADD_1N_N.c
 stdio.h
 -
 stdlib.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/ADD_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/ADD_NN_N.c
 COM_NN_D.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/COM_NN_D.c
 NZER_N_B.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/NZER_N_B.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/NZER_N_B.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/COM_NN_D.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/COM_NN_D.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_Dk.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/DIV_NN_Dk.c
 ../../naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 SUB_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/DIV_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/DIV_NN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/GCF_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/GCF_NN_N.c
 MOD_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MOD_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MOD_NN_N.c
 ../../naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/LCM_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/LCM_NN_N.c
 MUL_NN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_NN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MOD_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MOD_NN_N.c
 SUB_NDN_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NDN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NDN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_ND_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_ND_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_NN_N.c
 MUL_Nk_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_Nk_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_Nk_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_Nk_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_Nk_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/NZER_N_B.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/NZER_N_B.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NDN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NDN_N.c
 MUL_ND_N.c
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/MUL_ND_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/MUL_ND_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/naturals/SUB_NN_N.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/naturals/SUB_NN_N.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/DIV_QQ_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/polynome/ADD_PP_P.c
+stdio.h
+-
+stdlib.h
+-
+Polynome.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/polynome/Polynome.c
+../rational/ADD_QQ_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/ADD_QQ_Q.c
+
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/polynome/Polynome.c
+
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/ADD_QQ_Q.c
+../polynome/Polynome.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/polynome/Polynome.c
+
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/DIV_QQ_Q.c
 stdio.h
 -
 stdlib.h
 -
 ../integer/MUL_ZZ_Z.c
-/home/vms/CLionProjects/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/integer/MUL_ZZ_Z.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/INT_Q_B.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/INT_Q_B.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/MUL_QQ_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/MUL_QQ_Q.c
 stdio.h
 -
 stdlib.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/RED_Q_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/RED_Q_Q.c
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Q_Z.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/TRANS_Q_Z.c
 stdio.h
 -
 stdlib.h
 -
 
-/home/vms/CLionProjects/dm-colloq/libs/src/rational/TRANS_Z_Q.c
+C:/Users/User/Documents/GitHub/dm-colloq/libs/src/rational/TRANS_Z_Q.c
 
-/home/vms/CLionProjects/dm-colloq/main.cpp
+C:/Users/User/Documents/GitHub/dm-colloq/main.cpp
 iostream
 -
 libs/naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 tests/natural_tests.h
-/home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
+C:/Users/User/Documents/GitHub/dm-colloq/tests/natural_tests.h
 libs/integer.h
-/home/vms/CLionProjects/dm-colloq/libs/integer.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/integer.h
 libs/rational.h
-/home/vms/CLionProjects/dm-colloq/libs/rational.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/rational.h
+libs/polynome.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/polynome.h
 
-/home/vms/CLionProjects/dm-colloq/tests/natural_tests.h
+C:/Users/User/Documents/GitHub/dm-colloq/tests/natural_tests.h
 ../libs/naturals.h
-/home/vms/CLionProjects/dm-colloq/libs/naturals.h
+C:/Users/User/Documents/GitHub/dm-colloq/libs/naturals.h
 gtest/gtest.h
 -
 
