@@ -8,15 +8,15 @@
 //#include "MUL_QQ_Q.h"
 
 int **MUL_QQ_Q(int **fractionMultiplied, int **fractionMultiplier)
-{    int ** fraction = (int **)malloc(2 * sizeof(int*)); // это - дробь{ fraction[0] - числитель  fraction[1] - знаменатель}
-    if( NZER_N_B(fractionMultiplied[1]) == 1 ||  NZER_N_B(fractionMultiplier[1]) == 1) // проверка что знаменатель не равен 0
+{    int ** fraction = malloc(2 * sizeof(int*)); // it's a fraction { fraction[0] - numerator  fraction[1] - denominator}
+    if( NZER_N_B(fractionMultiplied[1]) == 1 ||  NZER_N_B(fractionMultiplier[1]) == 1) //  checking that denominator != 0
     {
         printf("Invalid input");
         exit(42);
     }
     //
-    fraction[0] = MUL_ZZ_Z(fractionMultiplied[0],fractionMultiplier[0] ); // числитель произведения
-    fraction[1] = MUL_ZZ_Z(fractionMultiplied[1],fractionMultiplier[1]); // знаменатель произведения
-
+    fraction[0] = MUL_ZZ_Z(fractionMultiplied[0],fractionMultiplier[0] ); // numerator of composition
+    // MUL_ZZ_Z must malloc memory
+    fraction[1] = MUL_ZZ_Z(fractionMultiplied[1],fractionMultiplier[1]); // denominator of composition
     return  fraction;
 }
