@@ -3,6 +3,7 @@
 //https://sites.google.com/site/nikolaevayekaterina7307/
 //e-mail: enterfox101@gmail.com
 #pragma once
+#include <stdlib.h>
 #include "./ABS_Z_N.c"
 
 int* DIV_ZZ_Z(int* Z1, int* Z2) {
