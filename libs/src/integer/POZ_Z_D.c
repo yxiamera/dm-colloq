@@ -5,9 +5,10 @@
 /*
 	Выполнил:
 	Ермоленко Валерий Эдуардович гр. 7307
+ 	https://sites.google.com/site/lazzyvaleriyermolenko1999/home
 	Определение положительности числа (2 - положительное, 0 — равное нулю, 1 - отрицательное)
 	На выполнение понадобилось 5 минут
-	Логических строк кода: 5
+	Логических строк кода: 9
 */
 
 int POZ_Z_D(int *input) {
@@ -17,11 +18,12 @@ int POZ_Z_D(int *input) {
 		return 1;
 	}
 	else {
-		if (input[size] == 0){
-		return 0;
+		if (input[2] != 0){
+		return 2;
 		}
 		else {
-			return 2;
+			return 0;
 		}
 	}
 }
+
