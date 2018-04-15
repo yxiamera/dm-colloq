@@ -28,18 +28,18 @@ void print_natural(int* num); // Outputs string representation to stdout
 // For Pozdnyakov S.N.
 int  COM_NN_D(int *, int *);
 int NZER_N_B(int *);
-int *ADD_1N_N(int *);
-int* ADD_NN_N(int *, int *);
-int* SUB_NN_N(int *, int *);
-int *MUL_ND_N(int *, int );
-int *MUL_Nk_N(int *, int );
-int *MUL_NN_N(int *, int *);
-int *SUB_NDN_N(int *, int *, int );
-int  DIV_NN_Dk(int *, int *);
-int *DIV_NN_N(int *, int *);
-int *MOD_NN_N(int *, int *);
-int *GCF_NN_N(int *, int *);
-int *LCM_NN_N(int *, int *);
+struct natural ADD_1N_N(struct natural);
+struct natural ADD_NN_N(struct natural, struct natural);
+struct natural SUB_NN_N(struct natural, struct natural);
+struct natural MUL_ND_N(struct natural, int );
+struct natural MUL_Nk_N(struct natural, int );
+struct natural MUL_NN_N(struct natural, struct natural);
+struct natural SUB_NDN_N(struct natural, struct natural, int );
+int  DIV_NN_Dk(struct natural, struct natural);
+struct natural DIV_NN_N(struct natural, struct natural);
+struct natural MOD_NN_N(struct natural, struct natural);
+struct natural GCF_NN_N(struct natural, struct natural);
+struct natural LCM_NN_N(struct natural, struct natural);
 
 char *str_repr(int *num) {
     char *str = (char *)malloc(*num + 2);
