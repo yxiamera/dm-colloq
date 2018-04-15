@@ -1,5 +1,4 @@
 #pragma once
-
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
@@ -14,13 +13,13 @@
 #include "src/integer/TRANS_N_Z.c"
 #include "src/integer/TRANS_Z_N.c"
 
-int *ABS_Z_N(int *);
-int POZ_Z_D(int *);
-int *MUL_ZM_Z(int *);
-int *TRANS_N_Z(int *);
-int *TRANS_Z_N(int *);
-int *ADD_ZZ_Z(int *, int *);
-int *SUB_ZZ_Z(int *, int *);
-int *MUL_ZZ_Z(int *, int *);
-int *DIV_ZZ_Z(int *, int *);
-int *MOD_ZZ_Z(int *, int *);
+struct integer ABS_Z_N(struct integer );
+struct integer POZ_Z_D(struct integer );
+struct integer MUL_ZM_Z(struct integer );
+struct integer TRANS_N_Z(struct integer );
+struct integer TRANS_Z_N(struct integer );
+struct integer ADD_ZZ_Z(struct integer , struct integer );
+struct integer SUB_ZZ_Z(struct integer , struct integer );
+struct integer MUL_ZZ_Z(struct integer , struct integer );
+struct integer DIV_ZZ_Z(struct integer , struct integer );
+struct integer MOD_ZZ_Z(struct integer , struct integer );

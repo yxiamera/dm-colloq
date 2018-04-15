@@ -5,7 +5,7 @@
 #ifndef DM_COLLOC_NATURAL_TESTS_H
 #define DM_COLLOC_NATURAL_TESTS_H
 #include "../libs/naturals.h"
-#include <gtest/gtest.h>
+//#include <gtest/gtest.h>
 
 
 TEST(str_repr, basic_test) {
