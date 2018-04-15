@@ -1,30 +1,40 @@
-//Об авторе:
-//Николаева Екатерина Валерьевна, ФКТИ гр.№7307
-//https://sites.google.com/site/nikolaevayekaterina7307/
-//e-mail: enterfox101@gmail.com
+/*Об авторе:
+Николаева Екатерина Валерьевна, ФКТИ гр.№7307
+https://sites.google.com/site/nikolaevayekaterina7307/
+e-mail: enterfox101@gmail.com*/
 #pragma once
+#include <stdio.h>
 #include <stdlib.h>
 #include "./ABS_Z_N.c"
 
-int* DIV_ZZ_Z(int* Z1, int* Z2) {
-    //detecting sign of result
-    int b=1;
-    if (Z1[1]==Z2[1]){  //if both numbers are positive or negative
-        b=0;            //set result sign to positive
+struct natural{
+	int n;
+	int number[400];
+};
+
+struct integer{
+	int n;
+	int sign;
+	int number[400];
+};
+
+struct integer DIV_ZZ_Z(struct integer Z1, struct integer Z2) {
+    struct integer Z;
+    int save_sign = 1;
+    /*detecting sign of result
+    if both numbers are positive or negative
+    set result sign to positive*/
+    if (Z1.sign==Z2.sign){
+        save_sign = 0;
     }
     //getting positive numbers
-    int* N1 = ABS_Z_N(Z1);
-    int* N2 = ABS_Z_N(Z2);
+    struct natural N1 = ABS_Z_N(Z1);
+    struct natural N2 = ABS_Z_N(Z2);
     //division
-    int* Z = DIV_NN_N(N1,N2);
+    Z = DIV_NN_N(N1, N2);
     //set sign of the result
-    Z[1] = b;
-
-    //free memory
-    free(N1);
-    free(N2);
+    Z.sign = save_sign;
 
     return Z;
 };
-
 //full completion time - about 2 hours
