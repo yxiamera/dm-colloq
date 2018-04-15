@@ -1,10 +1,12 @@
 #include <iostream>
-#include "libs/naturals.h"
 #include "tests/natural_tests.h"
+#include "libs/naturals.h"
 #include "libs/integer.h"
 #include "libs/rational.h"
+#include "libs/polynome.h"
 
 //TEST(MUL_N)
+// Git-testing done
 
 int *read_number(){
     int *mas, i;
